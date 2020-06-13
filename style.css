@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Yanone+Kaffeesatz&display=swap');
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+/* 
+first-background-responsive */
+.first-background-responsive {
+    width: 100%;
+    background-attachment: fixed;
+    opacity: 0.9;
+    height: 750px;
+    background-image: url('wal.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* 
+button-groups */
+.button-groups{
+    text-align: center;
+}
+
+
+/* 
+typer js */
+.first-background-responsive .typer-section h1 {
+    padding-top: 300px;
+    color: black;
+}
+/* 
+services// img setting */
+.imgsetting {
+    width: 100px;
+    border-radius: 75px;
+    height: 100px;
+    background-color: #FFC107;
+    font-size: 50px;
+    color: white;
+    padding-top: 25px;
+}
+/* 
+about-page */
+.about-page {
+    width: 100%;
+    height: 700px;
+}
+/* 
+.services-text && services-background */
+.services-page{
+    background-image: url(services.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+    opacity: 1;
+}
+.services-text {
+    padding-top: 16px;
+    padding-bottom: 3px;
+}
+/* 
+.features-page */
+.features-page {
+    height: 950px;
+ }
+ /*
+.ourteam page */
+.ourteam-page {
+    height: 700px;
+}
+/* 
+.contact=page */
+.contact-page {
+    background-image: url(contact.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* 
+fas */
+.fas{
+    font-size: 50px;
+    color: white;
+}
+/* 
+counter-page */
+.counter-page {
+    width: 100%;
+    height: 200px;
+    background-image: url('counter.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.btn-goup {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+/* 
+//////////////////// RESPONSIVE //////////////////////// */
+@media (min-width: 992px) {
+    .about-page {
+        width: 100%;
+        height: 1100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-page {
+        width: 100%;
+        height: 1100px;
+    }
+    .counter-page {
+        height: 300px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .about-page {
+        width: 100%;
+        height: 1500px;
+    }
+    .services-page{
+        background-image: url(services.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1300px;
+        opacity: 1;
+    }
+    .counter-page {
+        height: 800px;
+    }
+    .features-page {
+        height: 2500px;
+     }
+     .ourteam-page {
+        height: 1500px;
+    }
+    .contact-page {
+        background-image: url(contact.jpg);
+        height: 1300px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 574px) {
+    .about-page {
+        width: 100%;
+        height: 1500px;
+    }
+    .services-page{
+        background-image: url(services.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1300px;
+        opacity: 1;
+    }
+    .features-page {
+        height: 2700px;
+     }
+     .counter-page{
+         height: 800px;
+     }
+     .ourteam-page {
+        height: 1500px;
+    }
+    .contact-page {
+        background-image: url(contact.jpg);
+        height: 1300px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+@media (max-width: 459px) {
+    .about-page {
+        width: 100%;
+        height: 1500px;
+    }
+    .counter-page{
+        height: 800px;
+    }
+    .services-page{
+        background-image: url(services.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1300px;
+        opacity: 1;
+    }
+    .features-page {
+        height: 2300px;
+     }
+     .ourteam-page {
+        height: 1500px;
+    }
+    .contact-page {
+        background-image: url(contact.jpg);
+        height: 1300px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
